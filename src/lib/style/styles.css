@@ -160,15 +160,6 @@ p {
   line-height: 1.5;
 }
 
-a {
-  color: var(--color-theme-1);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 h1 {
   font-size: 2rem;
   text-align: center;
@@ -189,35 +180,10 @@ pre {
   color: var(--color-text);
 }
 
-.text-column {
-  /* display: flex;
-  max-width: 48rem;
-  flex: 0.6;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto; */
-}
-
 input,
 button {
   font-size: inherit;
   font-family: inherit;
-}
-
-button:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
 }
 
 body {
@@ -235,6 +201,11 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+a {
+  color: var(--white-font-color);
+  text-decoration: none;
 }
 
 .home-page-banner {
@@ -285,7 +256,7 @@ section {
   width: inherit;
   height: inherit;
   object-fit: cover;
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 14px 0px 0px 14px;
 }
 
 .display-text {
@@ -329,20 +300,43 @@ section {
   font-weight: 700;
 
   color: var(--white-font-color);
+
+  border-radius: 5px;
+  border: solid 1px var(--white-font-color);
 }
 
 .discord {
   background-color: #4b5ea0;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .youtube {
   background-color: #a30000;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .mastodon {
   background-color: #432291;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .github {
   background-color: #242629;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.discord:hover {
+  background-color: #6578bd;
+}
+
+.youtube:hover {
+  background-color: #d31717;
+}
+
+.mastodon:hover {
+  background-color: #7052b4;
+}
+
+.github:hover {
+  background-color: #41484e;
 }

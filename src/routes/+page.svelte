@@ -15,10 +15,18 @@
   <section>
     <h1>SOCIALS</h1>
     <div class="button-list">
-      <button class="social-button mastodon"> Mastodon </button>
-      <button class="social-button discord"> Discord </button>
-      <button class="social-button youtube"> Youtube </button>
-      <button class="social-button github"> GitHub </button>
+      <button class="social-button mastodon">
+        <a href="https://mastodon.art/@Tekatre"> Mastodon</a>
+      </button>
+      <!-- <button class="social-button discord">
+        <a href="https://mastodon.art/@Tekatre"> Discord</a>
+      </button>
+      <button class="social-button youtube">
+        <a href="https://mastodon.art/@Tekatre"> Youtube</a>
+      </button> -->
+      <button class="social-button github">
+        <a href="https://github.com/Tekatre"> GitHub</a>
+      </button>
     </div>
   </section>
   <section>
