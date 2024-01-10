@@ -27,9 +27,15 @@
       <button class="social-button github">
         <a href="https://github.com/Tekatre"> GitHub</a>
       </button>
+      <button class="social-button linkedin">
+        <a href="https://github.com/Tekatre"> Linkedin</a>
+      </button>
+      <button class="social-button itchio">
+        <a href="https://github.com/Tekatre"> Itch.io</a>
+      </button>
     </div>
   </section>
   <section>
-    <h1>GAMES</h1>
+    <h1>BIO</h1>
   </section>
 </body>
