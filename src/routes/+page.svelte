@@ -11,7 +11,7 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<body>
+<body class="surround-div">
   <div class="page-body">
     <!-- <div class="home-page-banner">
     <p>Tekatre's Portfolio</p>

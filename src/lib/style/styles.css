@@ -191,6 +191,11 @@ button {
   font-family: inherit;
 }
 
+.true-bg {
+  background-color: black;
+  background-image: url(../images/stars.gif);
+}
+
 header {
   border-bottom: 4px solid var(--blue-font-color);
   background-color: rgb(24, 24, 26);
@@ -201,6 +206,20 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
+}
+
+.surround-div {
+  width: 84rem;
+  background: rgba(24, 24, 26, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 24, 26, 0) 0%,
+    rgba(24, 24, 26, 0.9) 3%,
+    rgba(24, 24, 26, 1) 20%,
+    rgba(24, 24, 26, 1) 80%,
+    rgba(24, 24, 26, 0.9) 97%,
+    rgba(24, 24, 26, 0) 100%
+  );
 }
 
 body {
@@ -214,6 +233,10 @@ body {
 
 .trans-bg {
   background: transparent;
+}
+
+.fullw {
+  width: 100%;
 }
 
 div.page-body {
