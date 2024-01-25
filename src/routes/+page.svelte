@@ -1,9 +1,16 @@
-<script>
+<script lang="ts">
   import stars_banner from "$lib/images/stars.gif";
   import placeholder from "$lib/images/placeholder.png";
   import placeholder1 from "$lib/images/placeholder1.png";
   import HBingo from "$lib/images/HBingo.png";
   import HotPot from "$lib/images/HotPot.png";
+
+  import main_page_text from "$lib/main_page_trans.json";
+  import { translate } from "$lib/translator";
+  import { getContext } from "svelte";
+
+  let lang: string = getContext("lang");
+  console.log("lang", lang);
 </script>
 
 <svelte:head>
@@ -64,9 +71,7 @@
             >
 
             <p>
-              Un site web qui génère des grilles de bingo pour Hollow knight. Il
-              est possible de générer des grilles selon 3 niveaux de difficulté
-              en fonction d'une seed qui peut ensuite être partagée.
+              {translate(lang, main_page_text["hkbingo-desc"])}
             </p>
           </div>
         </div>
