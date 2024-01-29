@@ -193,7 +193,7 @@ button {
 
 .true-bg {
   background-color: black;
-  background-image: url(../images/stars.gif);
+  background-image: url(../images/artDisplay/stars.gif);
   background-repeat: repeat-y;
   background-size: cover;
 }
