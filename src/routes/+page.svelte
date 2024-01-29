@@ -1,5 +1,4 @@
 <script lang="ts">
-  import stars_banner from "$lib/images/stars.gif";
   import HBingo from "$lib/images/HBingo.png";
   import HotPot from "$lib/images/Hot-Logo.png";
   import Lightlock from "$lib/images/Lightlock-Logo.png";
