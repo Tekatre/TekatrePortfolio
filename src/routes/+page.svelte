@@ -1,9 +1,8 @@
 <script lang="ts">
   import stars_banner from "$lib/images/stars.gif";
-  import placeholder from "$lib/images/placeholder.png";
-  import placeholder1 from "$lib/images/placeholder1.png";
   import HBingo from "$lib/images/HBingo.png";
-  import HotPot from "$lib/images/HotPot.png";
+  import HotPot from "$lib/images/Hot-Logo.png";
+  import Lightlock from "$lib/images/Lightlock-Logo.png";
 
   import main_page_text from "$lib/main_page_trans.json";
   import { translate } from "$lib/translator";
@@ -102,7 +101,7 @@
         </div>
         <div class="project-container">
           <div class="project-card">
-            <img class="project-image" src={placeholder} alt="placeholder" />
+            <img class="project-image" src={Lightlock} alt="placeholder" />
           </div>
           <div class="project-text">
             <a href="/games/lightlock"
