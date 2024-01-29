@@ -452,9 +452,8 @@ li a {
 }
 
 .image-container {
-  width: auto;
-  max-width: 400px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   border-radius: 15px;
 }
 
@@ -462,7 +461,7 @@ li a {
   max-width: inherit;
   width: inherit;
   height: inherit;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .button-list {

@@ -7,7 +7,7 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<body>
+<body class="surround-div">
   <h1>ART</h1>
   <section class="images-mosaic">
     {#each Object.keys(imageModules) as image}
