@@ -1,6 +1,4 @@
 <script>
-  import placeholder from "$lib/images/placeholder.png";
-  import placeholder1 from "$lib/images/placeholder1.png";
 </script>
 
 <svelte:head>
