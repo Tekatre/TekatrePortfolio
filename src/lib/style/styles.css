@@ -191,6 +191,13 @@ button {
   font-family: inherit;
 }
 
+.true-bg {
+  background-color: black;
+  background-image: url(../images/artDisplay/stars.gif);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
 header {
   border-bottom: 4px solid var(--blue-font-color);
   background-color: rgb(24, 24, 26);
@@ -203,17 +210,34 @@ header {
   z-index: 1;
 }
 
+.surround-div {
+  width: 84rem;
+  background: rgba(24, 24, 26, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 24, 26, 0.1) 0%,
+    rgba(24, 24, 26, 1) 02%,
+    rgba(24, 24, 26, 1) 98%,
+    rgba(24, 24, 26, 0.1) 100%
+  );
+  padding-bottom: 5rem;
+}
+
 body {
   background: rgb(24, 24, 26);
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .trans-bg {
   background: transparent;
+}
+
+.fullw {
+  width: 100%;
 }
 
 div.page-body {
@@ -425,12 +449,13 @@ li a {
   align-items: center;
   row-gap: 2rem;
   column-gap: 2rem;
+
+  alt: var(--blue-font-color);
 }
 
 .image-container {
-  width: auto;
-  max-width: 400px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   border-radius: 15px;
 }
 
@@ -438,7 +463,7 @@ li a {
   max-width: inherit;
   width: inherit;
   height: inherit;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .button-list {
@@ -454,6 +479,10 @@ li a {
 }
 
 .social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 50%;
   max-width: 250px;
   min-width: 100px;

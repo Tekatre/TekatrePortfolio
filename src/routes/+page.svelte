@@ -1,9 +1,14 @@
-<script>
-  import stars_banner from "$lib/images/stars.gif";
-  import placeholder from "$lib/images/placeholder.png";
-  import placeholder1 from "$lib/images/placeholder1.png";
+<script lang="ts">
   import HBingo from "$lib/images/HBingo.png";
-  import HotPot from "$lib/images/HotPot.png";
+  import HotPot from "$lib/images/Hot-Logo.png";
+  import Lightlock from "$lib/images/Lightlock-Logo.png";
+
+  import main_page_text from "$lib/main_page_trans.json";
+  import { translate } from "$lib/translator";
+  import { getContext } from "svelte";
+
+  let lang: string = getContext("lang");
+  // console.log("lang", lang);
 </script>
 
 <svelte:head>
@@ -11,7 +16,7 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<body>
+<body class="surround-div">
   <div class="page-body">
     <!-- <div class="home-page-banner">
     <p>Tekatre's Portfolio</p>
@@ -19,31 +24,32 @@
     <section>
       <h1>SOCIALS</h1>
       <div class="button-list">
-        <button class="social-button mastodon">
-          <a href="https://mastodon.art/@Tekatre"> Mastodon</a>
-        </button>
+        <a class="social-button mastodon" href="https://mastodon.art/@Tekatre">
+          <p>Mastodon</p></a
+        >
         <!-- <button class="social-button discord">
         <a href="https://mastodon.art/@Tekatre"> Discord</a>
       </button>
       <button class="social-button youtube">
         <a href="https://mastodon.art/@Tekatre"> Youtube</a>
       </button> -->
-        <button class="social-button github">
-          <a href="https://github.com/Tekatre"> GitHub</a>
-        </button>
-        <button class="social-button linkedin">
-          <a href="https://www.linkedin.com/in/thomas-petit-677027296/">
-            Linkedin</a
-          >
-          <!-- </button>
+        <a class="social-button github" href="https://github.com/Tekatre"
+          ><p>GitHub</p>
+        </a>
+        <a
+          class="social-button linkedin"
+          href="https://www.linkedin.com/in/thomas-petit-677027296/"
+        >
+          <p>Linkedin</p></a
+        >
+        <!-- </button>
       <button class="social-button itchio">
         <a href="https://tekatre.itch.io/"> Itch.io</a>
       </button> -->
-        </button>
       </div>
     </section>
     <section>
-      <h1>Projects</h1>
+      <h1>PROJECTS</h1>
       <section class="project-list">
         <div class="project-container">
           <div class="project-card">
@@ -64,9 +70,7 @@
             >
 
             <p>
-              Un site web qui génère des grilles de bingo pour Hollow knight. Il
-              est possible de générer des grilles selon 3 niveaux de difficulté
-              en fonction d'une seed qui peut ensuite être partagée.
+              {translate(lang, main_page_text["hkbingo-desc"])}
             </p>
           </div>
         </div>
@@ -97,7 +101,7 @@
         </div>
         <div class="project-container">
           <div class="project-card">
-            <img class="project-image" src={placeholder} alt="placeholder" />
+            <img class="project-image" src={Lightlock} alt="placeholder" />
           </div>
           <div class="project-text">
             <a href="/games/lightlock"
