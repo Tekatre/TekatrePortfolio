@@ -8,7 +8,7 @@
   import { getContext } from "svelte";
 
   let lang: string = getContext("lang");
-  console.log("lang", lang);
+  // console.log("lang", lang);
 </script>
 
 <svelte:head>
@@ -49,7 +49,7 @@
       </div>
     </section>
     <section>
-      <h1>Projects</h1>
+      <h1>PROJECTS</h1>
       <section class="project-list">
         <div class="project-container">
           <div class="project-card">
