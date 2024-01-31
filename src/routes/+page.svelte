@@ -33,18 +33,19 @@
       <button class="social-button youtube">
         <a href="https://mastodon.art/@Tekatre"> Youtube</a>
       </button> -->
-        <button class="social-button github">
-          <a href="https://github.com/Tekatre"> GitHub</a>
-        </button>
-        <button class="social-button linkedin">
-          <a href="https://www.linkedin.com/in/thomas-petit-677027296/">
-            Linkedin</a
-          >
-          <!-- </button>
+        <a class="social-button github" href="https://github.com/Tekatre"
+          ><p>GitHub</p>
+        </a>
+        <a
+          class="social-button linkedin"
+          href="https://www.linkedin.com/in/thomas-petit-677027296/"
+        >
+          <p>Linkedin</p></a
+        >
+        <!-- </button>
       <button class="social-button itchio">
         <a href="https://tekatre.itch.io/"> Itch.io</a>
       </button> -->
-        </button>
       </div>
     </section>
     <section>
