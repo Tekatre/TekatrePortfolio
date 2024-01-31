@@ -449,6 +449,8 @@ li a {
   align-items: center;
   row-gap: 2rem;
   column-gap: 2rem;
+
+  alt: var(--blue-font-color);
 }
 
 .image-container {
