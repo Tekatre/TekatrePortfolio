@@ -1,5 +1,6 @@
 <script lang="ts">
   const imageModules = import.meta.glob("$lib/images/artDisplay/*.(png|gif)");
+  console.log("imageModules", imageModules);
 </script>
 
 <svelte:head>
@@ -12,6 +13,7 @@
   <section class="images-mosaic">
     {#each Object.keys(imageModules) as image}
       <div class="image-container">
+        {@debug image}
         <img class="mosaic-piece" src={image} alt="IMG1" />
       </div>
     {/each}
