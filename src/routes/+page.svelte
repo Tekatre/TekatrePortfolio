@@ -24,9 +24,9 @@
     <section>
       <h1>SOCIALS</h1>
       <div class="button-list">
-        <button class="social-button mastodon">
-          <a href="https://mastodon.art/@Tekatre"> Mastodon</a>
-        </button>
+        <a class="social-button mastodon" href="https://mastodon.art/@Tekatre">
+          <p>Mastodon</p></a
+        >
         <!-- <button class="social-button discord">
         <a href="https://mastodon.art/@Tekatre"> Discord</a>
       </button>

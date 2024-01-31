@@ -477,6 +477,10 @@ li a {
 }
 
 .social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 50%;
   max-width: 250px;
   min-width: 100px;
