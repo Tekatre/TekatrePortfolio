@@ -7,7 +7,7 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<body class="trans-bg">
+<body class="surround-div">
   <div class="page-body">
     <h1>Hallownest bingo</h1>
     <section class="gamepage">
