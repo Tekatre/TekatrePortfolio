@@ -18,9 +18,9 @@
           <p>TypeScript</p>
           <p>CSS</p>
         </div>
-        <button
-          ><a href="https://hallownest-bingo.vercel.app/"
-            >Website
+        <div class="website">
+          <a href="https://hallownest-bingo.vercel.app/">
+            <p>Website</p>
             <svg>
               <polyline
                 points="0 6 10 14 0 22"
@@ -30,8 +30,8 @@
                 stroke-linejoin="round">&lt;</polyline
               >
             </svg></a
-          ></button
-        >
+          >
+        </div>
       </nav>
       <article>
         <h2>Description du projet</h2>

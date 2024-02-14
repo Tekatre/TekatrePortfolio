@@ -22,6 +22,15 @@
     <p>Tekatre's Portfolio</p>
   </div> -->
     <section>
+      <h1>ABOUT ME</h1>
+      <div class="about-me">
+        <article>
+          <h3>Thomas "Tekatre" Petit</h3>
+          <p></p>
+        </article>
+      </div>
+    </section>
+    <section>
       <h1>SOCIALS</h1>
       <div class="button-list">
         <a class="social-button mastodon" href="https://mastodon.art/@Tekatre">
@@ -42,10 +51,9 @@
         >
           <p>Linkedin</p></a
         >
-        <!-- </button>
-      <button class="social-button itchio">
-        <a href="https://tekatre.itch.io/"> Itch.io</a>
-      </button> -->
+        <a class="social-button itchio" href="https://tekatre.itch.io/">
+          <p>Itch.io</p></a
+        >
       </div>
     </section>
     <section>
