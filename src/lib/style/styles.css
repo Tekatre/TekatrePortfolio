@@ -191,6 +191,19 @@ button {
   font-family: inherit;
 }
 
+.header-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+
+.tiny-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
 .true-bg {
   background-color: black;
   background-image: url(../images/artDisplay/stars.gif);

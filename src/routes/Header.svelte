@@ -1,9 +1,13 @@
 <script>
   import { page } from "$app/stores";
+  import logo from "$lib/images/favicon.png";
 </script>
 
 <header class="sticky">
-  <p>Tekatre</p>
+  <a href="/" class="header-name">
+    <img class="tiny-img" src={logo} alt="" />
+    <p>Tekatre</p>
+  </a>
 
   <nav>
     <ul>
