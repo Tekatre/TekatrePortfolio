@@ -60,78 +60,82 @@
       <h1>PROJECTS</h1>
       <section class="project-list">
         <div class="project-container">
-          <div class="project-card">
-            <img class="project-image" src={HBingo} alt="placeholder" />
-          </div>
-          <div class="project-text">
-            <a href="/games/hallownest-bingo"
-              ><h2>Hallownest Bingo</h2>
-              <svg>
-                <polyline
-                  points="0 4 10 12 0 20"
-                  stroke-width="4"
-                  stroke-linecap="butt"
-                  fill="none"
-                  stroke-linejoin="round">&lt;</polyline
-                >
-              </svg></a
-            >
-
-            <p>
-              {translate(lang, main_page_text["hkbingo-desc"])}
-            </p>
-          </div>
+          <a href="/games/hallownest-bingo">
+            <div class="project-card">
+              <img class="project-image" src={HBingo} alt="placeholder" />
+            </div>
+            <div class="project-text">
+              <div class="project-title">
+                <h2>Hallownest Bingo</h2>
+                <svg>
+                  <polyline
+                    points="0 4 10 12 0 20"
+                    stroke-width="4"
+                    stroke-linecap="butt"
+                    fill="none"
+                    stroke-linejoin="round">&lt;</polyline
+                  >
+                </svg>
+              </div>
+              <p>
+                {translate(lang, main_page_text["hkbingo-desc"])}
+              </p>
+            </div></a
+          >
         </div>
         <div class="project-container">
-          <div class="project-card">
-            <img class="project-image" src={HotPot} alt="placeholder" />
-          </div>
-          <div class="project-text">
-            <a href="/games/hottest-potato"
-              ><h2>Hottest Potato</h2>
-              <svg>
-                <polyline
-                  points="0 4 10 12 0 20"
-                  stroke-width="4"
-                  stroke-linecap="butt"
-                  fill="none"
-                  stroke-linejoin="round">&lt;</polyline
-                >
-              </svg></a
-            >
-            <p>
-              Réalisé en 48h pour la WonderJam 2023, Hottest Potato est un jeu
-              de Dating Sim parodique dans lequel vous devez démasquer les
-              fausses patates. Le jeu a reçu le prix des meilleurs assets faits
-              maison.
-            </p>
-          </div>
+          <a href="/games/hottest-potato">
+            <div class="project-card">
+              <img class="project-image" src={HotPot} alt="placeholder" />
+            </div>
+            <div class="project-text">
+              <div class="project-title">
+                <h2>Hottest Potato</h2>
+                <svg>
+                  <polyline
+                    points="0 4 10 12 0 20"
+                    stroke-width="4"
+                    stroke-linecap="butt"
+                    fill="none"
+                    stroke-linejoin="round">&lt;</polyline
+                  >
+                </svg>
+              </div>
+              <p>
+                Réalisé en 48h pour la WonderJam 2023, Hottest Potato est un jeu
+                de Dating Sim parodique dans lequel vous devez démasquer les
+                fausses patates. Le jeu a reçu le prix des meilleurs assets
+                faits maison.
+              </p>
+            </div></a
+          >
         </div>
         <div class="project-container">
-          <div class="project-card">
-            <img class="project-image" src={Lightlock} alt="placeholder" />
-          </div>
-          <div class="project-text">
-            <a href="/games/lightlock"
-              ><h2>Lightlock</h2>
-              <svg>
-                <polyline
-                  points="0 4 10 12 0 20"
-                  stroke-width="4"
-                  stroke-linecap="butt"
-                  fill="none"
-                  stroke-linejoin="round">&lt;</polyline
-                >
-              </svg></a
-            >
-
-            <p>
-              Un puzzle plateformer 2D basé sur la couleur. Le capitaine
-              Lightstealer, bloqué dans son vaisseau par une IA moqueuse, doit
-              trouver un moyen de rejoindre son équipage en utilisant les
-              mécanismes colorés à son avantage.
-            </p>
-          </div>
+          <a href="/games/lightlock">
+            <div class="project-card">
+              <img class="project-image" src={Lightlock} alt="placeholder" />
+            </div>
+            <div class="project-text">
+              <div Class="project-title">
+                <h2>Lightlock</h2>
+                <svg>
+                  <polyline
+                    points="0 4 10 12 0 20"
+                    stroke-width="4"
+                    stroke-linecap="butt"
+                    fill="none"
+                    stroke-linejoin="round">&lt;</polyline
+                  >
+                </svg>
+              </div>
+              <p>
+                Un puzzle plateformer 2D basé sur la couleur. Le capitaine
+                Lightstealer, bloqué dans son vaisseau par une IA moqueuse, doit
+                trouver un moyen de rejoindre son équipage en utilisant les
+                mécanismes colorés à son avantage.
+              </p>
+            </div></a
+          >
         </div>
       </section>
     </section>
