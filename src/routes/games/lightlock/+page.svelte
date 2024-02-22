@@ -1,4 +1,9 @@
 <script>
+  import LightlockHeader from "$lib/images/LightLock/LightlockHome.png";
+  import lightlock1 from "$lib/images/LightLock/LightLockScreen1.png";
+  import lightlock2 from "$lib/images/LightLock/LightLockScreen2.png";
+  import lightlock3 from "$lib/images/LightLock/Boxi.gif";
+  import lightlock4 from "$lib/images/LightLock/intro.gif";
 </script>
 
 <svelte:head>
@@ -10,7 +15,7 @@
   <div class="page-body">
     <h1>Hottest Potato</h1>
     <section class="gamepage">
-      <!-- <img class="header-img" src={BingoHeader} alt="" /> -->
+      <img class="header-img" src={LightlockHeader} alt="" />
       <nav>
         <div class="languages">
           <p>UE5</p>
@@ -35,22 +40,40 @@
       <article>
         <h2>Description du projet</h2>
         <p>
-          Vous participez au jeu télévisé de speed Dating "Who's gonna be the
-          HOTTEST POTATO". Cependant, le présentateur, Yukon Gold, est au
-          courant que les autres participants ne sont pas des patates et vous
-          demande de les saboter en révélant leur véritable identité. Pour cela,
-          il faudra explorer le plateau à la recherche d'objets pour faire
-          tomber les déguisements. Mais attention, le studio demande que vous
-          écoutiez votre date pour répondre correctement à ses questions, sous
-          peine de vous faire éliminer de l'émission. Il faudra donc être vif
-          dans vos excursions sur le plateau.
+          Lightlock est un jeu de plateforme dans lequel vous incarnez le
+          capitaine Lightstealer, bloqué dans son vaisseau par une IA
+          sarcastique. Il va devoir progresser à travers les salles du vaisseau
+          en utilisant à son avantage les propriétés du chromatium, une matière
+          colorée qui devient solide uniquement lorsquélle est noire.
         </p>
         <p>
-          Ce jeu a été réalisé en 48h pour la WonderJam 2023, ma première
-          GameJam. J'ai principalement participé sur les aspects de gameplay et
-          la conception des assets visuels en flux tendu. Le jeu a obtenu le
-          prix des meilleurs assets maison de cette édition.
+          Ce jeu est un prototype et sert de démo pour l'idée que nous avions
+          eu. Au fur et à mesure des salles, le joueur est ammené à comprendre
+          et utiliser différents mécanismes et à voir le chromatium à la fois
+          comme un obstacle et comme une plateforme. Le jeu complet devais
+          s'orienter sur une histoire riche au cours de laquelle le capitaine
+          apprenais que sa valeur en tant que capitaine était déjà prouvée et
+          qu'il pouvais prendre une retraite bien méritée en passant le flambeau
+          à sa fille.
         </p>
+        <br />
+        <div class="art-galery">
+          <h2>Art Galery</h2>
+          <div class="images-mosaic">
+            <div class="image-container">
+              <img class="mosaic-piece" src={lightlock4} alt="placeholder" />
+            </div>
+            <div class="image-container">
+              <img class="mosaic-piece" src={lightlock1} alt="placeholder" />
+            </div>
+            <div class="image-container">
+              <img class="mosaic-piece" src={lightlock2} alt="placeholder" />
+            </div>
+            <div class="image-container">
+              <img class="mosaic-piece" src={lightlock3} alt="placeholder" />
+            </div>
+          </div>
+        </div>
       </article>
     </section>
   </div>

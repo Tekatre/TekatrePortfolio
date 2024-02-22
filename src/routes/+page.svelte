@@ -1,7 +1,7 @@
 <script lang="ts">
   import HBingo from "$lib/images/HBingo.png";
   import HotPot from "$lib/images/Hot-Logo.png";
-  import Lightlock from "$lib/images/Lightlock-Logo.png";
+  import Lightlock from "$lib/images/LightLock/Lightlock-Logo.png";
 
   import main_page_text from "$lib/main_page_trans.json";
   import { translate } from "$lib/translator";
