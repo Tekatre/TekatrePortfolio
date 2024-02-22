@@ -191,6 +191,10 @@ button {
   font-family: inherit;
 }
 
+article {
+  color: var(--white-font-color);
+}
+
 .header-name {
   display: flex;
   flex-direction: row;
@@ -695,4 +699,10 @@ li a {
   font-weight: 400;
   text-align: justify;
   color: var(--white-font-color);
+}
+
+embed {
+  width: 80%;
+  height: 800px;
+  border-radius: 5px;
 }

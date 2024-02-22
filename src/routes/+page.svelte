@@ -26,7 +26,10 @@
       <div class="about-me">
         <article>
           <h3>Thomas "Tekatre" Petit</h3>
-          <p></p>
+          <p>
+            Je suis étudiant en double diplome ingénieur informatique/jeux
+            vidéo.
+          </p>
         </article>
       </div>
     </section>
