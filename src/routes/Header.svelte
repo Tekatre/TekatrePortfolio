@@ -12,11 +12,11 @@
   <nav>
     <ul>
       <li aria-current={$page.url.pathname === "/" ? "page" : undefined}>
-        <a href="/">Home</a>
+        <a href="/">Accueil</a>
       </li>
-      <li aria-current={$page.url.pathname === "/CV" ? "page" : undefined}>
+      <!-- <li aria-current={$page.url.pathname === "/CV" ? "page" : undefined}>
         <a href="/CV">CV</a>
-      </li>
+      </li> -->
       <!-- <li aria-current={$page.url.pathname === "/games" ? "page" : undefined}>
         <a href="/games">Games</a>
       </li> -->

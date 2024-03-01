@@ -25,12 +25,12 @@
 </script>
 
 <svelte:head>
-  <title>Home</title>
+  <title>Art</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <body class="surround-div">
-  <h1>ART</h1>
+  <h1>MES DESSINS</h1>
   <section class="images-mosaic">
     <!-- {#each Object.keys(imageModules) as image}
       <div class="image-container">

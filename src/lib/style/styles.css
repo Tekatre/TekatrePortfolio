@@ -706,3 +706,27 @@ embed {
   height: 800px;
   border-radius: 5px;
 }
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--pink-font-color);
+  padding-bottom: 1rem;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.75rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pagelink {
+  color: var(--blue-font-color);
+  transition: all 0.1s ease-in-out;
+}
+
+.pagelink:hover {
+  color: var(--pink-font-color);
+}
