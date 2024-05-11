@@ -2,6 +2,7 @@
   import HBingo from "$lib/images/HBingo.png";
   import HotPot from "$lib/images/Hot-Logo.png";
   import Lightlock from "$lib/images/LightLock/Lightlock-Logo.png";
+  import Kepler from "$lib/images/KeplerHome.png";
   import icon from "$lib/images/favicon.png";
   import cv from "$lib/CV-V0.pdf";
 
@@ -56,16 +57,16 @@
     </section>
 
     <section>
-      <h1>MES PROJETS</h1>
+      <h1>PROJETS ÉTUDIANTS</h1>
       <section class="project-list">
         <div class="project-container">
-          <a href="/games/hallownest-bingo">
+          <a href="/games/lightlock">
             <div class="project-card">
-              <img class="project-image" src={HBingo} alt="placeholder" />
+              <img class="project-image" src={Lightlock} alt="placeholder" />
             </div>
             <div class="project-text">
-              <div class="project-title">
-                <h2>Hallownest Bingo</h2>
+              <div Class="project-title">
+                <h2>Lightlock</h2>
                 <svg>
                   <polyline
                     points="0 4 10 12 0 20"
@@ -77,11 +78,44 @@
                 </svg>
               </div>
               <p>
-                {translate(lang, main_page_text["hkbingo-desc"])}
+                Un puzzle plateformer 2D basé sur la couleur. Le capitaine
+                Lightstealer, bloqué dans son vaisseau par une IA moqueuse, doit
+                trouver un moyen de rejoindre son équipage en utilisant les
+                mécanismes colorés à son avantage.
               </p>
             </div></a
           >
         </div>
+        <div class="project-container">
+          <a href="/games/projet-kepler">
+            <div class="project-card">
+              <img class="project-image" src={Kepler} alt="placeholder" />
+            </div>
+            <div class="project-text">
+              <div Class="project-title">
+                <h2>Projet Kepler</h2>
+                <svg>
+                  <polyline
+                    points="0 4 10 12 0 20"
+                    stroke-width="4"
+                    stroke-linecap="butt"
+                    fill="none"
+                    stroke-linejoin="round">&lt;</polyline
+                  >
+                </svg>
+              </div>
+              <p>
+                Un jeu sérieux de gestion sur la biodiversité réalisé pour un
+                cour de jeu sérieux. Le joueur incarne un scientifique envoyé
+                sur une planète pour re créer la biodiversité terrestre petit à
+                petit en apprenant les règles qui régissent les écosystèmes.
+              </p>
+            </div></a
+          >
+        </div>
+      </section>
+      <h1>GAME JAMS</h1>
+      <section class="project-list">
         <div class="project-container">
           <a href="/games/hottest-potato">
             <div class="project-card">
@@ -109,14 +143,17 @@
             </div></a
           >
         </div>
+      </section>
+      <h1>PROJETS PERSONNELS</h1>
+      <section class="project-list">
         <div class="project-container">
-          <a href="/games/lightlock">
+          <a href="/games/hallownest-bingo">
             <div class="project-card">
-              <img class="project-image" src={Lightlock} alt="placeholder" />
+              <img class="project-image" src={HBingo} alt="placeholder" />
             </div>
             <div class="project-text">
-              <div Class="project-title">
-                <h2>Lightlock</h2>
+              <div class="project-title">
+                <h2>Hallownest Bingo</h2>
                 <svg>
                   <polyline
                     points="0 4 10 12 0 20"
@@ -128,10 +165,7 @@
                 </svg>
               </div>
               <p>
-                Un puzzle plateformer 2D basé sur la couleur. Le capitaine
-                Lightstealer, bloqué dans son vaisseau par une IA moqueuse, doit
-                trouver un moyen de rejoindre son équipage en utilisant les
-                mécanismes colorés à son avantage.
+                {translate(lang, main_page_text["hkbingo-desc"])}
               </p>
             </div></a
           >
