@@ -18,7 +18,7 @@
   import LaMontagne from "$lib/images/artDisplay/Lamontagneilparé.gif";
   import Leopp from "$lib/images/artDisplay/Leopp.png";
   import lesnuages from "$lib/images/artDisplay/lesnuages.gif";
-  import LogoCDP from "$lib/images/artDisplay/Logo-CDP.gif";
+  import LogoCDP from "$lib/images/artDisplay/logo-CDP.gif";
   import lowpoly from "$lib/images/artDisplay/lowpoly.png";
   import Reve from "$lib/images/artDisplay/rêve.png";
   import Stars from "$lib/images/artDisplay/stars.gif";
