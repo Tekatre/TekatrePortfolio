@@ -15,13 +15,11 @@
   import Frame1 from "$lib/images/artDisplay/frame1.png";
   import Goutte from "$lib/images/artDisplay/goutte.png";
   import Intro from "$lib/images/artDisplay/intro.gif";
-  import Iso1 from "$lib/images/artDisplay/iso1.png";
-  import LaMontagne from "$lib/images/artDisplay/lamontagneilparé.gif";
+  import LaMontagne from "$lib/images/artDisplay/Lamontagneilparé.gif";
   import Leopp from "$lib/images/artDisplay/Leopp.png";
   import lesnuages from "$lib/images/artDisplay/lesnuages.gif";
   import LogoCDP from "$lib/images/artDisplay/Logo-CDP.gif";
   import lowpoly from "$lib/images/artDisplay/lowpoly.png";
-  import Nuag1PP from "$lib/images/artDisplay/nuag1PP.gif";
   import Reve from "$lib/images/artDisplay/rêve.png";
   import Stars from "$lib/images/artDisplay/stars.gif";
   import StoneGiant from "$lib/images/artDisplay/StoneGiant.gif";
