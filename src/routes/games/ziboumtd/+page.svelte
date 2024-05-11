@@ -9,14 +9,14 @@
 
 <body class="surround-div">
   <div class="page-body">
-    <h1>Hallownest bingo</h1>
+    <h1>Ziboum TD</h1>
     <section class="gamepage">
       <img class="header-img" src={BingoHeader} alt="" />
       <nav>
         <div class="languages">
-          <p>Svelte</p>
-          <p>TypeScript</p>
-          <p>CSS</p>
+          <p>Unreal Engine</p>
+          <p>C++</p>
+          <p>Perforce</p>
         </div>
         <div class="website">
           <a href="https://hallownest-bingo.vercel.app/">
@@ -36,13 +36,8 @@
       <article>
         <h2>Description du projet</h2>
         <p>
-          Hallownest Bingo est un site qui permet de générer des grilles de
-          bingo pour Hollow Knight. Le but de ce site était de pouvoir jouer sur
-          une grille en même temps que des amis. Il est possible de générer des
-          défis de plus ou moins grande difficulté et de partager la grille avec
-          d'autres personnes grâce à la seed. La liste de tous les défis est
-          disponnibles dans l'onglet "Challenges". Le site est traduis en
-          anglais et en français.
+          Ziboum TD Kitchen Nightmare Abrégé en Ziboum TD est un Tower Defense
+          3D réalisé en cours.
         </p>
         <p>
           C'est un projet personnel qui est une refonte d'une application
