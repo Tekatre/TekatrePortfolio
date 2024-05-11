@@ -25,7 +25,7 @@
   import StoneGiant from "$lib/images/artDisplay/StoneGiant.gif";
   import theastrerework from "$lib/images/artDisplay/theastrerework.png";
   import TNEVENT2024sketch from "$lib/images/artDisplay/TNEVENT2024-sketch.png";
-  import Transperce from "$lib/images/artDisplay/transperce.gif";
+  import Transperce from "$lib/images/artDisplay/Transperce.gif";
   import VikieHotel from "$lib/images/artDisplay/vikie-hotel.png";
   import Desert from "$lib/images/artDisplay/zidesert.png";
 
